@@ -1,0 +1,22 @@
+# Secrets and credentials
+*.env
+.env*
+secrets/
+*secret*
+*.key
+*.pem
+*.crt
+*.p12
+id_*
+*token*
+
+# Raw, unscrubbed exports
+*.backup
+*-raw.*
+raw/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
