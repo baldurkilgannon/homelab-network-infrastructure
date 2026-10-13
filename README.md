@@ -11,7 +11,7 @@ The lab runs an 11-VLAN network with OPNsense routing and firewalling over LACP 
 | Case study | Focus |
 |---|---|
 | Diagnosing an ARP gateway hijack on an L2 switch *(in progress)* | Layer 2 troubleshooting, root-cause analysis |
-| Zero-downtime VLAN migration of six VMs *(in progress)* | Change sequencing, rollback design |
+| [Minimal-downtime VLAN migration of six VMs](case-studies/01-vlan-migration.md) | Change sequencing, rollback design |
 | Cross-VLAN NFS through a stateful firewall *(in progress)* | RPC port pinning, firewall alias design |
 | Docker bind mounts racing NFS at boot *(in progress)* | systemd ordering, silent failure modes |
 
